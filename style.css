@@ -1,0 +1,130 @@
+/* *{
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 232, 236);
+}
+#mainbutton{
+    height: 200px;
+    width: 800px;
+    
+    background-color: black;
+    border: 10px;
+    border-radius: 50px;
+    align-items: center;
+    margin-left: 80px;
+    margin-right:80px;
+    transition: background-color 0.5s;
+
+
+}
+#mainbutton:hover{
+    background-color: rgb(51, 40, 49);
+    height: 210px;
+    width:810px;
+}
+#textmainbutton{
+    font-size: 60px;
+    text-decoration: none;
+    font-family: cursive;
+    color: azure;
+
+}
+ */
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fdf5e6;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(243, 170, 182);
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #555;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+#story .timeline {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#story .event {
+    text-align: center;
+}
+
+#story .event img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#reasons ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#reasons li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+#proposal button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#celebration {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffde59;
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
